@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientMedicalConditions Test PatientMedicalConditions is rendered as expected 1`] = `
+<Fragment>
+  <span
+    className="userShowTitle"
+  >
+    Medical Conditions
+  </span>
+  <div
+    className="patientDetails"
+  >
+    <span>
+      <div
+        className="patientDetails"
+        key="1"
+      >
+        Cephalalgia (headache)
+      </div>
+      <div
+        className="patientDetails"
+        key="3"
+      >
+        Otitis externa (swimmer's ear)
+      </div>
+      <div
+        className="patientDetails"
+        key="9"
+      >
+        Contusion (bruise)
+      </div>
+    </span>
+  </div>
+</Fragment>
+`;

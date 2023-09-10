@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddAllergyPopUp Test AddAllergyPopUp is rendered as expected 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    data-testid="openAddAllergyModal"
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Add Allergy
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    data-testid="addAllergyModal"
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="md"
+    style={
+      Object {
+        "zIndex": 2000,
+      }
+    }
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        id="contained-modal-title-vcenter"
+      >
+        Add Allergy
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <form
+        onSubmit={[Function]}
+      >
+        <Container
+          fluid={false}
+        >
+          <Row
+            className="justify-content-md-center"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            />
+          </Row>
+          <Row
+            className="justify-content-md-center textfield"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            >
+              <ForwardRef(TextField)
+                className="updateInput"
+                data-testid="allergyName"
+                label="Allergy Name"
+                onChange={[Function]}
+                value=""
+                variant="standard"
+              />
+            </Col>
+          </Row>
+          <Row
+            className="justify-content-md-center"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            >
+              <ForwardRef
+                className="search-box"
+                components={
+                  Object {
+                    "ClearIndicator": [Function],
+                    "Control": [Function],
+                    "CrossIcon": [Function],
+                    "DownChevron": [Function],
+                    "DropdownIndicator": [Function],
+                    "Group": [Function],
+                    "GroupHeading": [Function],
+                    "IndicatorSeparator": [Function],
+                    "IndicatorsContainer": [Function],
+                    "Input": [Function],
+                    "LoadingIndicator": [Function],
+                    "LoadingMessage": [Function],
+                    "Menu": [Function],
+                    "MenuList": [Function],
+                    "MenuPortal": [Function],
+                    "MultiValue": [Function],
+                    "MultiValueContainer": [Function],
+                    "MultiValueLabel": [Function],
+                    "MultiValueRemove": [Function],
+                    "NoOptionsMessage": [Function],
+                    "Option": [Function],
+                    "Placeholder": [Function],
+                    "SelectContainer": [Function],
+                    "SingleValue": [Function],
+                    "ValueContainer": [Function],
+                  }
+                }
+                data-testid="ingredients"
+                isClearable={true}
+                loadOptions={[Function]}
+                onChange={[Function]}
+                placeholder="Ingredient causing allergy"
+                required={true}
+                value=""
+              />
+            </Col>
+          </Row>
+          <Row
+            className="justify-content-md-center textfield"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            >
+              <ForwardRef(TextField)
+                className="updateInput"
+                data-testid="allergyReaction"
+                label="Reaction"
+                onChange={[Function]}
+                value=""
+                variant="standard"
+              />
+            </Col>
+          </Row>
+          <Row
+            className="justify-content-md-center"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            >
+              <ForwardRef
+                className="search-box"
+                components={
+                  Object {
+                    "ClearIndicator": [Function],
+                    "Control": [Function],
+                    "CrossIcon": [Function],
+                    "DownChevron": [Function],
+                    "DropdownIndicator": [Function],
+                    "Group": [Function],
+                    "GroupHeading": [Function],
+                    "IndicatorSeparator": [Function],
+                    "IndicatorsContainer": [Function],
+                    "Input": [Function],
+                    "LoadingIndicator": [Function],
+                    "LoadingMessage": [Function],
+                    "Menu": [Function],
+                    "MenuList": [Function],
+                    "MenuPortal": [Function],
+                    "MultiValue": [Function],
+                    "MultiValueContainer": [Function],
+                    "MultiValueLabel": [Function],
+                    "MultiValueRemove": [Function],
+                    "NoOptionsMessage": [Function],
+                    "Option": [Function],
+                    "Placeholder": [Function],
+                    "SelectContainer": [Function],
+                    "SingleValue": [Function],
+                    "ValueContainer": [Function],
+                  }
+                }
+                data-testid="severity"
+                isClearable={true}
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "label": "MILD",
+                      "value": "MILD",
+                    },
+                    Object {
+                      "label": "MODERATE",
+                      "value": "MODERATE",
+                    },
+                    Object {
+                      "label": "CRITICAL",
+                      "value": "CRITICAL",
+                    },
+                  ]
+                }
+                placeholder="Allergy Severity"
+                required={true}
+                value=""
+              />
+            </Col>
+          </Row>
+          <Row
+            className="justify-content-md-center"
+            noGutters={false}
+          >
+            <Col
+              md={10}
+            >
+              <ForwardRef
+                className="search-box"
+                components={
+                  Object {
+                    "ClearIndicator": [Function],
+                    "Control": [Function],
+                    "CrossIcon": [Function],
+                    "DownChevron": [Function],
+                    "DropdownIndicator": [Function],
+                    "Group": [Function],
+                    "GroupHeading": [Function],
+                    "IndicatorSeparator": [Function],
+                    "IndicatorsContainer": [Function],
+                    "Input": [Function],
+                    "LoadingIndicator": [Function],
+                    "LoadingMessage": [Function],
+                    "Menu": [Function],
+                    "MenuList": [Function],
+                    "MenuPortal": [Function],
+                    "MultiValue": [Function],
+                    "MultiValueContainer": [Function],
+                    "MultiValueLabel": [Function],
+                    "MultiValueRemove": [Function],
+                    "NoOptionsMessage": [Function],
+                    "Option": [Function],
+                    "Placeholder": [Function],
+                    "SelectContainer": [Function],
+                    "SingleValue": [Function],
+                    "ValueContainer": [Function],
+                  }
+                }
+                data-testid="status"
+                isClearable={true}
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "label": "ACTIVE",
+                      "value": "ACTIVE",
+                    },
+                    Object {
+                      "label": "INACTIVE",
+                      "value": "INACTIVE",
+                    },
+                  ]
+                }
+                placeholder="Allergy Status"
+                required={true}
+                value=""
+              />
+            </Col>
+          </Row>
+          <Row
+            className="justify-content-md-center"
+            noGutters={false}
+          >
+            <Col
+              md={5}
+            >
+              <Button
+                active={false}
+                className="updateInput"
+                data-testid="addAllergyButton"
+                disabled={false}
+                onClick={[Function]}
+                variant="primary"
+              >
+                Add
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+      </form>
+    </ModalBody>
+  </Modal>
+</Fragment>
+`;
+
+exports[`Modal Window clear form Check clearAllergyDetails function upon component mount 1`] = `
+<Router
+  history={
+    Object {
+      "listen": [MockFunction] {
+        "calls": Array [
+          Array [
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "location": Object {},
+      "push": [MockFunction],
+    }
+  }
+>
+  <AddAllergyPopUp
+    patientDetails={
+      Object {
+        "age": 21,
+        "allergies": Array [
+          Object {
+            "encounter": Object {
+              "date": "2021-10-26",
+              "id": 10,
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "user": Object {
+                "accountNonExpired": true,
+                "accountNonLocked": true,
+                "authorities": Array [
+                  Object {
+                    "authority": "USER",
+                    "id": 1,
+                    "roleCode": "USER",
+                    "roleDescription": "User role",
+                  },
+                  Object {
+                    "authority": "ADMIN",
+                    "id": 2,
+                    "roleCode": "ADMIN",
+                    "roleDescription": "Admin role",
+                  },
+                ],
+                "credentialsNonExpired": true,
+                "email": "john.cage@gmail.com",
+                "enabled": true,
+                "id": 1,
+                "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                "role": "Physician",
+                "username": "John",
+              },
+            },
+            "id": 7,
+            "ingredient": Object {
+              "id": 4,
+              "name": "Aspirin",
+            },
+            "name": "Aspirin Allergy",
+            "patient": Object {
+              "age": 21,
+              "city": "Bangalore",
+              "email": "leanne.graham@gmail.com",
+              "firstName": "Leanne",
+              "gender": "Male",
+              "id": 1001,
+              "lastName": "Graham",
+              "medicalConditions": Array [
+                Object {
+                  "id": 1,
+                  "name": "Cephalalgia (headache)",
+                },
+                Object {
+                  "id": 3,
+                  "name": "Otitis externa (swimmer's ear)",
+                },
+                Object {
+                  "id": 9,
+                  "name": "Contusion (bruise)",
+                },
+              ],
+              "phoneNumber": 9123456780,
+              "state": "Karnataka",
+            },
+            "reaction": "Tiredness",
+            "severity": "MODERATE",
+            "status": "ACTIVE",
+          },
+          Object {
+            "encounter": Object {
+              "date": "2021-10-26",
+              "id": 13,
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "user": Object {
+                "accountNonExpired": true,
+                "accountNonLocked": true,
+                "authorities": Array [
+                  Object {
+                    "authority": "USER",
+                    "id": 1,
+                    "roleCode": "USER",
+                    "roleDescription": "User role",
+                  },
+                  Object {
+                    "authority": "ADMIN",
+                    "id": 2,
+                    "roleCode": "ADMIN",
+                    "roleDescription": "Admin role",
+                  },
+                ],
+                "credentialsNonExpired": true,
+                "email": "john.cage@gmail.com",
+                "enabled": true,
+                "id": 1,
+                "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                "role": "Physician",
+                "username": "John",
+              },
+            },
+            "id": 8,
+            "ingredient": Object {
+              "id": 1,
+              "name": "Paracetamol",
+            },
+            "name": "Paracetamol",
+            "patient": Object {
+              "age": 21,
+              "city": "Bangalore",
+              "email": "leanne.graham@gmail.com",
+              "firstName": "Leanne",
+              "gender": "Male",
+              "id": 1001,
+              "lastName": "Graham",
+              "medicalConditions": Array [
+                Object {
+                  "id": 1,
+                  "name": "Cephalalgia (headache)",
+                },
+                Object {
+                  "id": 3,
+                  "name": "Otitis externa (swimmer's ear)",
+                },
+                Object {
+                  "id": 9,
+                  "name": "Contusion (bruise)",
+                },
+              ],
+              "phoneNumber": 9123456780,
+              "state": "Karnataka",
+            },
+            "reaction": "sdfd",
+            "severity": "MILD",
+            "status": "ACTIVE",
+          },
+          Object {
+            "encounter": Object {
+              "date": "2021-10-29",
+              "id": 20,
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "user": Object {
+                "accountNonExpired": true,
+                "accountNonLocked": true,
+                "authorities": Array [
+                  Object {
+                    "authority": "USER",
+                    "id": 1,
+                    "roleCode": "USER",
+                    "roleDescription": "User role",
+                  },
+                  Object {
+                    "authority": "ADMIN",
+                    "id": 2,
+                    "roleCode": "ADMIN",
+                    "roleDescription": "Admin role",
+                  },
+                ],
+                "credentialsNonExpired": true,
+                "email": "john.cage@gmail.com",
+                "enabled": true,
+                "id": 1,
+                "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                "role": "Physician",
+                "username": "John",
+              },
+            },
+            "id": 13,
+            "ingredient": Object {
+              "id": 3,
+              "name": "Ibuprofen",
+            },
+            "name": "Ibuprofin Allergy",
+            "patient": Object {
+              "age": 21,
+              "city": "Bangalore",
+              "email": "leanne.graham@gmail.com",
+              "firstName": "Leanne",
+              "gender": "Male",
+              "id": 1001,
+              "lastName": "Graham",
+              "medicalConditions": Array [
+                Object {
+                  "id": 1,
+                  "name": "Cephalalgia (headache)",
+                },
+                Object {
+                  "id": 3,
+                  "name": "Otitis externa (swimmer's ear)",
+                },
+                Object {
+                  "id": 9,
+                  "name": "Contusion (bruise)",
+                },
+              ],
+              "phoneNumber": 9123456780,
+              "state": "Karnataka",
+            },
+            "reaction": "Increased Perspiration",
+            "severity": "MODERATE",
+            "status": "ACTIVE",
+          },
+          Object {
+            "encounter": Object {
+              "date": "2021-10-26",
+              "id": 1,
+              "patient": Object {
+                "age": 56,
+                "city": "Mysore",
+                "email": "clementine.bauch@gmail.com",
+                "firstName": "Clementine",
+                "gender": "Female",
+                "id": 1003,
+                "lastName": "Bauch",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 23,
+                    "name": "Gestation (pregnancy) ",
+                  },
+                ],
+                "phoneNumber": 9123456782,
+                "state": "Karnataka",
+              },
+              "user": Object {
+                "accountNonExpired": true,
+                "accountNonLocked": true,
+                "authorities": Array [
+                  Object {
+                    "authority": "USER",
+                    "id": 1,
+                    "roleCode": "USER",
+                    "roleDescription": "User role",
+                  },
+                  Object {
+                    "authority": "ADMIN",
+                    "id": 2,
+                    "roleCode": "ADMIN",
+                    "roleDescription": "Admin role",
+                  },
+                ],
+                "credentialsNonExpired": true,
+                "email": "john.cage@gmail.com",
+                "enabled": true,
+                "id": 1,
+                "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                "role": "Physician",
+                "username": "John",
+              },
+            },
+            "id": 14,
+            "ingredient": Object {
+              "id": 3,
+              "name": "Ibuprofen",
+            },
+            "name": "Paracetamol Allergy",
+            "patient": Object {
+              "age": 21,
+              "city": "Bangalore",
+              "email": "leanne.graham@gmail.com",
+              "firstName": "Leanne",
+              "gender": "Male",
+              "id": 1001,
+              "lastName": "Graham",
+              "medicalConditions": Array [
+                Object {
+                  "id": 1,
+                  "name": "Cephalalgia (headache)",
+                },
+                Object {
+                  "id": 3,
+                  "name": "Otitis externa (swimmer's ear)",
+                },
+                Object {
+                  "id": 9,
+                  "name": "Contusion (bruise)",
+                },
+              ],
+              "phoneNumber": 9123456780,
+              "state": "Karnataka",
+            },
+            "reaction": "Increased Perspiration",
+            "severity": "MODERATE",
+            "status": "ACTIVE",
+          },
+        ],
+        "city": "Bangalore",
+        "email": "leanne.graham@gmail.com",
+        "firstName": "Leanne",
+        "gender": "Male",
+        "id": 1001,
+        "lastName": "Graham",
+        "medicalConditions": Array [
+          Object {
+            "id": 1,
+            "name": "Cephalalgia (headache)",
+          },
+          Object {
+            "id": 3,
+            "name": "Otitis externa (swimmer's ear)",
+          },
+          Object {
+            "id": 9,
+            "name": "Contusion (bruise)",
+          },
+        ],
+        "phoneNumber": 9123456780,
+        "state": "Karnataka",
+      }
+    }
+  >
+    <Button
+      active={false}
+      data-testid="openAddAllergyModal"
+      disabled={false}
+      onClick={[Function]}
+      variant="primary"
+    >
+      <button
+        className="btn btn-primary"
+        data-testid="openAddAllergyModal"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Add Allergy
+      </button>
+    </Button>
+    <Modal
+      animation={true}
+      aria-labelledby="contained-modal-title-vcenter"
+      autoFocus={true}
+      backdrop={true}
+      centered={true}
+      data-testid="addAllergyModal"
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+      size="md"
+      style={
+        Object {
+          "zIndex": 2000,
+        }
+      }
+    >
+      <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
+        enforceFocus={true}
+        keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
+        restoreFocus={true}
+        show={false}
+        transition={[Function]}
+      />
+    </Modal>
+  </AddAllergyPopUp>
+</Router>
+`;

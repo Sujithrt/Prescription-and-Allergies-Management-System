@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorComponent Test ErrorComponent is rendered as expected 1`] = `
+<Fragment>
+  <PrimarySearchAppBar />
+  <Alert
+    className="error"
+    closeLabel="Close alert"
+    show={true}
+    transition={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "appear": false,
+          "in": false,
+          "mountOnEnter": false,
+          "timeout": 300,
+          "unmountOnExit": false,
+        },
+        "render": [Function],
+      }
+    }
+    variant="warning"
+  >
+    An Error Occurred. Please Contact Support at 123-456-789
+  </Alert>
+</Fragment>
+`;

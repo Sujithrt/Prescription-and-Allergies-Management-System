@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Test SearchBar is rendered as expected 1`] = `
+<div
+  className="container"
+>
+  <ForwardRef
+    className="search-bar"
+    components={
+      Object {
+        "ClearIndicator": [Function],
+        "Control": [Function],
+        "CrossIcon": [Function],
+        "DownChevron": [Function],
+        "DropdownIndicator": [Function],
+        "Group": [Function],
+        "GroupHeading": [Function],
+        "IndicatorSeparator": [Function],
+        "IndicatorsContainer": [Function],
+        "Input": [Function],
+        "LoadingIndicator": [Function],
+        "LoadingMessage": [Function],
+        "Menu": [Function],
+        "MenuList": [Function],
+        "MenuPortal": [Function],
+        "MultiValue": [Function],
+        "MultiValueContainer": [Function],
+        "MultiValueLabel": [Function],
+        "MultiValueRemove": [Function],
+        "NoOptionsMessage": [Function],
+        "Option": [Function],
+        "Placeholder": [Function],
+        "SelectContainer": [Function],
+        "SingleValue": [Function],
+        "ValueContainer": [Function],
+      }
+    }
+    data-testid="patientSearchBar"
+    isClearable={true}
+    loadOptions={[Function]}
+    onChange={[Function]}
+    placeholder="Search Patients..."
+    styles={
+      Object {
+        "control": [Function],
+        "option": [Function],
+        "singleValue": [Function],
+      }
+    }
+    value=""
+  />
+</div>
+`;

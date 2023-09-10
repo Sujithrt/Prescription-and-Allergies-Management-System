@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PnamsApp Test PnamsApp is rendered as expected 1`] = `
+<BrowserRouter>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/login"
+    />
+    <AuthenticatedRoute
+      component={[Function]}
+      exact={true}
+      path="/dashboard"
+    />
+    <AuthenticatedRoute
+      component={[Function]}
+      exact={true}
+      path="/user"
+    />
+    <AuthenticatedRoute
+      component={[Function]}
+      exact={true}
+      path="/patient/:id"
+    />
+    <Route
+      component={[Function]}
+      path=""
+    />
+  </Switch>
+</BrowserRouter>
+`;

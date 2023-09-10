@@ -1,0 +1,77 @@
+.user {
+    margin-top: 50px;
+    flex: 4;
+    padding: 20px;
+}
+
+.userContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.userUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+}
+
+.userShowUsername {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.userShowTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+
+.userShowIcon {
+    font-size: 16px !important;
+}
+
+.userShowInfoTitle {
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+
+.userUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.error {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.search-bar {
+    width: 40%;
+}
+
+.doseInput {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.patientDetails {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.warning {
+    float: right;
+    margin-right: 10px;
+}

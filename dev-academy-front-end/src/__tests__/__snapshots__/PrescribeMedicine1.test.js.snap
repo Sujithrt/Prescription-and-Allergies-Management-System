@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrescribeMedicine Test PrescribeMedicine is rendered as expected 1`] = `
+<Fragment>
+  <span
+    className="userUpdateTitle"
+  >
+    Medicines
+  </span>
+  <WithStyles(ForwardRef(IconButton))
+    data-testid="addMedicineField"
+    onClick={[Function]}
+  >
+    <Memo(ForwardRef(AddIcon)) />
+  </WithStyles(ForwardRef(IconButton))>
+  <br />
+  <form
+    onSubmit={[Function]}
+  >
+    <Container
+      fluid={false}
+    >
+      <Row
+        key="0"
+        noGutters={false}
+      >
+        <ForwardRef
+          className="search-bar"
+          classNamePrefix="select"
+          components={
+            Object {
+              "Option": [Function],
+            }
+          }
+          data-testid="medicine"
+          isClearable={true}
+          name="medicines"
+          onChange={[Function]}
+          onInputChange={[Function]}
+          options={Array []}
+          placeholder="Select medicine..."
+          value=""
+        />
+        <ForwardRef(TextField)
+          className="doseInput"
+          data-testid="doseField"
+          label="Dose"
+          name="dose"
+          onChange={[Function]}
+          value=""
+          variant="standard"
+        />
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+              "marginTop": "10px",
+            }
+          }
+        >
+          <Button
+            active={false}
+            data-testid="deleteMedicineField"
+            disabled={false}
+            onClick={[Function]}
+            variant="danger"
+          >
+            Delete
+          </Button>
+        </div>
+      </Row>
+      <Button
+        active={false}
+        data-testid="prescribeButton"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginTop": "10px",
+          }
+        }
+        variant="primary"
+      >
+        Prescribe
+      </Button>
+    </Container>
+  </form>
+</Fragment>
+`;

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar Test NavBar is rendered as expected 1`] = `
+<ForwardRef(Box)
+  sx={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <ForwardRef(AppBar)
+    position="fixed"
+  >
+    <ForwardRef(Toolbar)>
+      <ForwardRef(Typography)
+        component="div"
+        noWrap={true}
+        sx={
+          Object {
+            "display": Object {
+              "sm": "block",
+              "xs": "none",
+            },
+          }
+        }
+        variant="h6"
+      >
+        <div
+          className="nav-link"
+          data-testid="pnamsHeader"
+          onClick={[Function]}
+          to="/dashboard"
+        >
+          PNAMS
+        </div>
+      </ForwardRef(Typography)>
+      <SearchBar />
+      <ForwardRef(Box)
+        sx={
+          Object {
+            "flexGrow": 1,
+          }
+        }
+      />
+      <ForwardRef(Box)
+        sx={
+          Object {
+            "display": Object {
+              "md": "flex",
+              "xs": "none",
+            },
+          }
+        }
+      >
+        <ForwardRef(IconButton)
+          aria-controls="primary-search-account-menu"
+          aria-haspopup="true"
+          aria-label="account of current user"
+          color="inherit"
+          data-testid="profileMenu"
+          edge="end"
+          onClick={[Function]}
+          size="large"
+        >
+          <Memo(ForwardRef(AccountCircleIcon)) />
+        </ForwardRef(IconButton)>
+      </ForwardRef(Box)>
+      <ForwardRef(Box)
+        sx={
+          Object {
+            "display": Object {
+              "md": "none",
+              "xs": "flex",
+            },
+          }
+        }
+      >
+        <ForwardRef(IconButton)
+          aria-controls="primary-search-account-menu-mobile"
+          aria-haspopup="true"
+          aria-label="show more"
+          color="inherit"
+          data-testid="profileMenuMobile"
+          onClick={[Function]}
+          size="large"
+        >
+          <Memo(ForwardRef(MoreVertIcon)) />
+        </ForwardRef(IconButton)>
+      </ForwardRef(Box)>
+    </ForwardRef(Toolbar)>
+  </ForwardRef(AppBar)>
+  <ForwardRef(Menu)
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+    id="primary-search-account-menu-mobile"
+    keepMounted={true}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+  >
+    <ForwardRef(MenuItem)
+      onClick={[Function]}
+      style={
+        Object {
+          "WebkitBoxAlign": "center",
+          "WebkitBoxPack": "start",
+          "alignItems": "center",
+          "border": 0,
+          "borderRadius": 0,
+          "color": "inherit",
+          "cursor": "pointer",
+          "display": "flex",
+          "fontFamily": "\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "justifyContent": "flex-start",
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+          "margin": 0,
+          "outline": 0,
+          "padding": "5px 10px",
+          "position": "relative",
+          "userSelect": "none",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Profile
+    </ForwardRef(MenuItem)>
+    <ForwardRef(MenuItem)
+      onClick={[Function]}
+      style={
+        Object {
+          "WebkitBoxAlign": "center",
+          "WebkitBoxPack": "start",
+          "alignItems": "center",
+          "border": 0,
+          "borderRadius": 0,
+          "color": "inherit",
+          "cursor": "pointer",
+          "display": "flex",
+          "fontFamily": "\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "justifyContent": "flex-start",
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+          "margin": 0,
+          "outline": 0,
+          "padding": "5px 10px",
+          "position": "relative",
+          "userSelect": "none",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Logout
+    </ForwardRef(MenuItem)>
+  </ForwardRef(Menu)>
+  <ForwardRef(Menu)
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+    data-testid="menu"
+    id="primary-search-account-menu"
+    keepMounted={true}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+  >
+    <ForwardRef(MenuItem)
+      data-testid="openUserProfile"
+      onClick={[Function]}
+      style={
+        Object {
+          "WebkitBoxAlign": "center",
+          "WebkitBoxPack": "start",
+          "alignItems": "center",
+          "border": 0,
+          "borderRadius": 0,
+          "color": "inherit",
+          "cursor": "pointer",
+          "display": "flex",
+          "fontFamily": "\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "justifyContent": "flex-start",
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+          "margin": 0,
+          "outline": 0,
+          "padding": "5px 10px",
+          "position": "relative",
+          "userSelect": "none",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Profile
+    </ForwardRef(MenuItem)>
+    <ForwardRef(MenuItem)
+      data-testid="clickLogout"
+      onClick={[Function]}
+      style={
+        Object {
+          "WebkitBoxAlign": "center",
+          "WebkitBoxPack": "start",
+          "alignItems": "center",
+          "border": 0,
+          "borderRadius": 0,
+          "color": "inherit",
+          "cursor": "pointer",
+          "display": "flex",
+          "fontFamily": "\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "justifyContent": "flex-start",
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+          "margin": 0,
+          "outline": 0,
+          "padding": "5px 10px",
+          "position": "relative",
+          "userSelect": "none",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Logout
+    </ForwardRef(MenuItem)>
+  </ForwardRef(Menu)>
+</ForwardRef(Box)>
+`;

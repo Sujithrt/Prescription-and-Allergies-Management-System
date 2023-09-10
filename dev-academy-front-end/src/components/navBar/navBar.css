@@ -1,0 +1,18 @@
+.nav-link {
+    background-color:transparent !important; 
+    text-decoration:none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:active {
+    color: white;
+}

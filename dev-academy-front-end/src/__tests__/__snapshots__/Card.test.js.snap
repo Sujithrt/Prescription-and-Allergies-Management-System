@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Test Card is rendered as expected 1`] = `
+<ForwardRef(Box)
+  className="box"
+  sx={
+    Object {
+      "minWidth": 275,
+    }
+  }
+>
+  <ForwardRef(Card)
+    className="cards"
+    variant="outlined"
+  >
+    <ForwardRef(CardContent)>
+      <ForwardRef(Typography)
+        color="text.secondary"
+        gutterBottom={true}
+        sx={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Registration Number - 
+        1001
+        <br />
+      </ForwardRef(Typography)>
+      <ForwardRef(Typography)
+        variant="h5"
+      >
+        Leanne
+         
+        Graham
+      </ForwardRef(Typography)>
+      <ForwardRef(Typography)
+        variant="body2"
+      >
+        Age: 
+        21
+        <br />
+        <br />
+        Gender: 
+        Male
+        <br />
+      </ForwardRef(Typography)>
+      <ForwardRef(Typography)
+        color="text.secondary"
+        gutterBottom={true}
+        sx={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Last Encounter Date: 
+        <br />
+      </ForwardRef(Typography)>
+    </ForwardRef(CardContent)>
+    <span
+      className="button-align"
+    >
+      <ForwardRef(CardActions)>
+        <br />
+        <br />
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          variant="primary"
+        >
+          More Details
+        </Button>
+      </ForwardRef(CardActions)>
+    </span>
+  </ForwardRef(Card)>
+</ForwardRef(Box)>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientDetails Test PatientDetails is rendered as expected 1`] = `
+<Fragment>
+  <div
+    className="userShowUsername"
+  >
+    Registration Number: 
+    1001
+  </div>
+  <span
+    className="userShowTitle"
+  >
+    Patient Details
+  </span>
+  <div
+    className="patientDetails"
+  >
+    <Memo(ForwardRef(PermIdentityIcon))
+      className="userShowIcon"
+    />
+    <span
+      className="userShowInfoTitle"
+    >
+      Leanne
+       
+      Graham
+    </span>
+  </div>
+  <div
+    className="patientDetails"
+  >
+    <Memo(ForwardRef(CalendarTodayIcon))
+      className="userShowIcon"
+    />
+    <span
+      className="userShowInfoTitle"
+    >
+      21
+    </span>
+  </div>
+  <span
+    className="userShowTitle"
+  >
+    Contact Details
+  </span>
+  <div
+    className="patientDetails"
+  >
+    <Memo(ForwardRef(MailOutlineIcon))
+      className="userShowIcon"
+    />
+    <span
+      className="userShowInfoTitle"
+    >
+      leanne.graham@gmail.com
+    </span>
+  </div>
+  <div
+    className="patientDetails"
+  >
+    <Memo(ForwardRef(ContactPhoneOutlinedIcon))
+      className="userShowIcon"
+    />
+    <span
+      className="userShowInfoTitle"
+    >
+      9123456780
+    </span>
+  </div>
+  <div
+    className="patientDetails"
+  >
+    <Memo(ForwardRef(LocationSearchingIcon))
+      className="userShowIcon"
+    />
+    <span
+      className="userShowInfoTitle"
+    >
+      Bangalore
+       | 
+      Karnataka
+    </span>
+  </div>
+</Fragment>
+`;

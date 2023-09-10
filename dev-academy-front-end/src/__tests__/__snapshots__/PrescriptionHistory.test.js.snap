@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrescriptionHistory Test Patient has no prescription history 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    data-testid="viewPrescriptionHistoryButton"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "marginBottom": "10px",
+        "marginTop": "10px",
+      }
+    }
+    variant="primary"
+  >
+    View Patient Priscription History
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    data-testid="hideMenu"
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+    style={
+      Object {
+        "zIndex": 2000,
+      }
+    }
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        id="contained-modal-title-vcenter"
+      >
+        Prescription History
+      </ModalTitle>
+    </ModalHeader>
+    <Alert
+      closeLabel="Close alert"
+      show={true}
+      transition={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "appear": false,
+            "in": false,
+            "mountOnEnter": false,
+            "timeout": 300,
+            "unmountOnExit": false,
+          },
+          "render": [Function],
+        }
+      }
+      variant="primary"
+    >
+      Patient does not have any Prescription History
+    </Alert>
+    <ModalFooter>
+      <Button
+        active={false}
+        data-testid="closeModalButton"
+        disabled={false}
+        onClick={[Function]}
+        variant="primary"
+      >
+        Close
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;
+
+exports[`PrescriptionHistory Test PrescriptionHistory is rendered as expected 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    data-testid="viewPrescriptionHistoryButton"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "marginBottom": "10px",
+        "marginTop": "10px",
+      }
+    }
+    variant="primary"
+  >
+    View Patient Priscription History
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    data-testid="hideMenu"
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+    style={
+      Object {
+        "zIndex": 2000,
+      }
+    }
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        id="contained-modal-title-vcenter"
+      >
+        Prescription History
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <table
+        className="table"
+      >
+        <thead>
+          <tr>
+            <th>
+              Brand Name
+            </th>
+            <th>
+              Generic Name
+            </th>
+            <th>
+              Dosage
+            </th>
+            <th>
+              Date of Prescription
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="0"
+          >
+            <td>
+              Tylenol
+            </td>
+            <td>
+              Acetaminophen
+            </td>
+            <td>
+              3 times a day
+            </td>
+            <td>
+              2021-10-26
+            </td>
+          </tr>
+          <tr
+            key="1"
+          >
+            <td>
+              Advil
+            </td>
+            <td>
+              Ibuprofen
+            </td>
+            <td>
+              3 times a day
+            </td>
+            <td>
+              2021-10-26
+            </td>
+          </tr>
+          <tr
+            key="2"
+          >
+            <td>
+              Dolo
+            </td>
+            <td>
+              Paracetamol
+            </td>
+            <td>
+              1 time a day
+            </td>
+            <td>
+              2021-10-26
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        data-testid="closeModalButton"
+        disabled={false}
+        onClick={[Function]}
+        variant="primary"
+      >
+        Close
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

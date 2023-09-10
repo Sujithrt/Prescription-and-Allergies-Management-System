@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Test App is rendered as expected 1`] = `<PnamsApp />`;

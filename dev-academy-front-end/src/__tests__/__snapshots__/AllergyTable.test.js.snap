@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllergyTable Test AllergyTable is rendered as expected 1`] = `
+<Fragment>
+  <span
+    className="userUpdateTitle"
+  >
+    Allergies
+  </span>
+  <br />
+  <br />
+  <Container
+    fluid={false}
+  >
+    <table
+      className="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Caused By
+          </th>
+          <th>
+            Reactions
+          </th>
+          <th>
+            Severity
+          </th>
+          <th>
+            Status
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="7"
+        >
+          <td>
+            Aspirin Allergy
+          </td>
+          <td>
+            Aspirin
+          </td>
+          <td>
+            Tiredness
+          </td>
+          <td>
+            MODERATE
+          </td>
+          <td>
+            ACTIVE
+          </td>
+        </tr>
+        <tr
+          key="8"
+        >
+          <td>
+            Paracetamol
+          </td>
+          <td>
+            Paracetamol
+          </td>
+          <td>
+            sdfd
+          </td>
+          <td>
+            MILD
+          </td>
+          <td>
+            ACTIVE
+          </td>
+        </tr>
+        <tr
+          key="13"
+        >
+          <td>
+            Ibuprofin Allergy
+          </td>
+          <td>
+            Ibuprofen
+          </td>
+          <td>
+            Increased Perspiration
+          </td>
+          <td>
+            MODERATE
+          </td>
+          <td>
+            ACTIVE
+          </td>
+        </tr>
+        <tr
+          key="14"
+        >
+          <td>
+            Paracetamol Allergy
+          </td>
+          <td>
+            Ibuprofen
+          </td>
+          <td>
+            Increased Perspiration
+          </td>
+          <td>
+            MODERATE
+          </td>
+          <td>
+            ACTIVE
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <AddAllergyPopUp
+      patientDetails={
+        Object {
+          "age": 21,
+          "allergies": Array [
+            Object {
+              "encounter": Object {
+                "date": "2021-10-26",
+                "id": 10,
+                "patient": Object {
+                  "age": 21,
+                  "city": "Bangalore",
+                  "email": "leanne.graham@gmail.com",
+                  "firstName": "Leanne",
+                  "gender": "Male",
+                  "id": 1001,
+                  "lastName": "Graham",
+                  "medicalConditions": Array [
+                    Object {
+                      "id": 1,
+                      "name": "Cephalalgia (headache)",
+                    },
+                    Object {
+                      "id": 3,
+                      "name": "Otitis externa (swimmer's ear)",
+                    },
+                    Object {
+                      "id": 9,
+                      "name": "Contusion (bruise)",
+                    },
+                  ],
+                  "phoneNumber": 9123456780,
+                  "state": "Karnataka",
+                },
+                "user": Object {
+                  "accountNonExpired": true,
+                  "accountNonLocked": true,
+                  "authorities": Array [
+                    Object {
+                      "authority": "USER",
+                      "id": 1,
+                      "roleCode": "USER",
+                      "roleDescription": "User role",
+                    },
+                    Object {
+                      "authority": "ADMIN",
+                      "id": 2,
+                      "roleCode": "ADMIN",
+                      "roleDescription": "Admin role",
+                    },
+                  ],
+                  "credentialsNonExpired": true,
+                  "email": "john.cage@gmail.com",
+                  "enabled": true,
+                  "id": 1,
+                  "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                  "role": "Physician",
+                  "username": "John",
+                },
+              },
+              "id": 7,
+              "ingredient": Object {
+                "id": 4,
+                "name": "Aspirin",
+              },
+              "name": "Aspirin Allergy",
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "reaction": "Tiredness",
+              "severity": "MODERATE",
+              "status": "ACTIVE",
+            },
+            Object {
+              "encounter": Object {
+                "date": "2021-10-26",
+                "id": 13,
+                "patient": Object {
+                  "age": 21,
+                  "city": "Bangalore",
+                  "email": "leanne.graham@gmail.com",
+                  "firstName": "Leanne",
+                  "gender": "Male",
+                  "id": 1001,
+                  "lastName": "Graham",
+                  "medicalConditions": Array [
+                    Object {
+                      "id": 1,
+                      "name": "Cephalalgia (headache)",
+                    },
+                    Object {
+                      "id": 3,
+                      "name": "Otitis externa (swimmer's ear)",
+                    },
+                    Object {
+                      "id": 9,
+                      "name": "Contusion (bruise)",
+                    },
+                  ],
+                  "phoneNumber": 9123456780,
+                  "state": "Karnataka",
+                },
+                "user": Object {
+                  "accountNonExpired": true,
+                  "accountNonLocked": true,
+                  "authorities": Array [
+                    Object {
+                      "authority": "USER",
+                      "id": 1,
+                      "roleCode": "USER",
+                      "roleDescription": "User role",
+                    },
+                    Object {
+                      "authority": "ADMIN",
+                      "id": 2,
+                      "roleCode": "ADMIN",
+                      "roleDescription": "Admin role",
+                    },
+                  ],
+                  "credentialsNonExpired": true,
+                  "email": "john.cage@gmail.com",
+                  "enabled": true,
+                  "id": 1,
+                  "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                  "role": "Physician",
+                  "username": "John",
+                },
+              },
+              "id": 8,
+              "ingredient": Object {
+                "id": 1,
+                "name": "Paracetamol",
+              },
+              "name": "Paracetamol",
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "reaction": "sdfd",
+              "severity": "MILD",
+              "status": "ACTIVE",
+            },
+            Object {
+              "encounter": Object {
+                "date": "2021-10-29",
+                "id": 20,
+                "patient": Object {
+                  "age": 21,
+                  "city": "Bangalore",
+                  "email": "leanne.graham@gmail.com",
+                  "firstName": "Leanne",
+                  "gender": "Male",
+                  "id": 1001,
+                  "lastName": "Graham",
+                  "medicalConditions": Array [
+                    Object {
+                      "id": 1,
+                      "name": "Cephalalgia (headache)",
+                    },
+                    Object {
+                      "id": 3,
+                      "name": "Otitis externa (swimmer's ear)",
+                    },
+                    Object {
+                      "id": 9,
+                      "name": "Contusion (bruise)",
+                    },
+                  ],
+                  "phoneNumber": 9123456780,
+                  "state": "Karnataka",
+                },
+                "user": Object {
+                  "accountNonExpired": true,
+                  "accountNonLocked": true,
+                  "authorities": Array [
+                    Object {
+                      "authority": "USER",
+                      "id": 1,
+                      "roleCode": "USER",
+                      "roleDescription": "User role",
+                    },
+                    Object {
+                      "authority": "ADMIN",
+                      "id": 2,
+                      "roleCode": "ADMIN",
+                      "roleDescription": "Admin role",
+                    },
+                  ],
+                  "credentialsNonExpired": true,
+                  "email": "john.cage@gmail.com",
+                  "enabled": true,
+                  "id": 1,
+                  "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                  "role": "Physician",
+                  "username": "John",
+                },
+              },
+              "id": 13,
+              "ingredient": Object {
+                "id": 3,
+                "name": "Ibuprofen",
+              },
+              "name": "Ibuprofin Allergy",
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "reaction": "Increased Perspiration",
+              "severity": "MODERATE",
+              "status": "ACTIVE",
+            },
+            Object {
+              "encounter": Object {
+                "date": "2021-10-26",
+                "id": 1,
+                "patient": Object {
+                  "age": 56,
+                  "city": "Mysore",
+                  "email": "clementine.bauch@gmail.com",
+                  "firstName": "Clementine",
+                  "gender": "Female",
+                  "id": 1003,
+                  "lastName": "Bauch",
+                  "medicalConditions": Array [
+                    Object {
+                      "id": 23,
+                      "name": "Gestation (pregnancy) ",
+                    },
+                  ],
+                  "phoneNumber": 9123456782,
+                  "state": "Karnataka",
+                },
+                "user": Object {
+                  "accountNonExpired": true,
+                  "accountNonLocked": true,
+                  "authorities": Array [
+                    Object {
+                      "authority": "USER",
+                      "id": 1,
+                      "roleCode": "USER",
+                      "roleDescription": "User role",
+                    },
+                    Object {
+                      "authority": "ADMIN",
+                      "id": 2,
+                      "roleCode": "ADMIN",
+                      "roleDescription": "Admin role",
+                    },
+                  ],
+                  "credentialsNonExpired": true,
+                  "email": "john.cage@gmail.com",
+                  "enabled": true,
+                  "id": 1,
+                  "password": "$2a$10$uS1MVfXzQkqbY7XDruby/OySJp3yjLmo4QGDSiE30GoN0wGb7DCqS",
+                  "role": "Physician",
+                  "username": "John",
+                },
+              },
+              "id": 14,
+              "ingredient": Object {
+                "id": 3,
+                "name": "Ibuprofen",
+              },
+              "name": "Paracetamol Allergy",
+              "patient": Object {
+                "age": 21,
+                "city": "Bangalore",
+                "email": "leanne.graham@gmail.com",
+                "firstName": "Leanne",
+                "gender": "Male",
+                "id": 1001,
+                "lastName": "Graham",
+                "medicalConditions": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Cephalalgia (headache)",
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Otitis externa (swimmer's ear)",
+                  },
+                  Object {
+                    "id": 9,
+                    "name": "Contusion (bruise)",
+                  },
+                ],
+                "phoneNumber": 9123456780,
+                "state": "Karnataka",
+              },
+              "reaction": "Increased Perspiration",
+              "severity": "MODERATE",
+              "status": "ACTIVE",
+            },
+          ],
+          "city": "Bangalore",
+          "email": "leanne.graham@gmail.com",
+          "firstName": "Leanne",
+          "gender": "Male",
+          "id": 1001,
+          "lastName": "Graham",
+          "medicalConditions": Array [
+            Object {
+              "id": 1,
+              "name": "Cephalalgia (headache)",
+            },
+            Object {
+              "id": 3,
+              "name": "Otitis externa (swimmer's ear)",
+            },
+            Object {
+              "id": 9,
+              "name": "Contusion (bruise)",
+            },
+          ],
+          "phoneNumber": 9123456780,
+          "state": "Karnataka",
+        }
+      }
+    />
+  </Container>
+</Fragment>
+`;
+
+exports[`Patient has no allergies No allergy alert displayed 1`] = `
+<Fragment>
+  <span
+    className="userUpdateTitle"
+  >
+    Allergies
+  </span>
+  <br />
+  <br />
+  <Container
+    fluid={false}
+  >
+    <Alert
+      closeLabel="Close alert"
+      show={true}
+      transition={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "appear": false,
+            "in": false,
+            "mountOnEnter": false,
+            "timeout": 300,
+            "unmountOnExit": false,
+          },
+          "render": [Function],
+        }
+      }
+      variant="primary"
+    >
+      Patient does not have any recorded allergies
+    </Alert>
+    <AddAllergyPopUp
+      patientDetails={
+        Object {
+          "age": 20,
+          "allergies": Array [],
+          "city": "Bangalore",
+          "email": "abc.def@gmail.com",
+          "firstName": "abc",
+          "gender": "Male",
+          "id": 1,
+          "lastEncounterDate": "2021-11-03",
+          "lastName": "def",
+          "medicalConditions": Array [
+            Object {
+              "id": 1,
+              "name": "Medical Condition 1",
+            },
+            Object {
+              "id": 2,
+              "name": "Medical Condition 2",
+            },
+          ],
+          "phoneNumber": 1234567890,
+          "state": "Karnataka",
+        }
+      }
+    />
+  </Container>
+</Fragment>
+`;
